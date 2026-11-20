@@ -13,6 +13,13 @@ Do not commit, push or open pull requests. The author writes every commit
 message and pull request description by hand. Leave changes in the working
 tree, on a branch if one is needed, and say what changed.
 
+## Work reserved for the author
+
+The "How I use AI" section of `README.md` lists what the author writes and
+designs, and what AI may help with. Follow it. If you are asked to write
+something that is reserved for the author, say so and offer to explain,
+review or suggest an approach instead.
+
 ## Scoping Rules
 
 - Work on one feature unit at a time.

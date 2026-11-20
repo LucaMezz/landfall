@@ -13,6 +13,9 @@ architectural decision:
 5. `docs/context/ui-context.md` — theme, colors, typography and component
    conventions (only needed when working on the web app)
 
+Before writing any code, read "How I use AI" in `README.md`. The work listed
+under "Written and designed by me" is reserved for the author.
+
 Decisions are recorded as ADRs in `docs/adr/`.
 
 Progress is tracked in GitHub issues and milestones, with one milestone for
