@@ -8,7 +8,7 @@
 
 TODO.
 
-## Colors
+## Colours
 
 TODO.
 

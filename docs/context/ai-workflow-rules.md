@@ -5,7 +5,7 @@
 Build landfall incrementally, one stage at a time, in the order set out under
 "Success Criteria" in `project-overview.md`. The context files define what to
 build, how to build it and where things stand. Implement against them. Do not
-infer or invent behavior.
+infer or invent behaviour.
 
 ## Version control
 
@@ -32,14 +32,14 @@ Split an implementation step if it combines:
 
 - Control plane changes and AWS infrastructure changes
 - Several unrelated API operations
-- Behavior that is not clearly defined in the context files
+- Behaviour that is not clearly defined in the context files
 
 If a change cannot be verified end to end quickly, the scope is too broad.
 Split it.
 
 ## Handling Missing Requirements
 
-- Do not invent product behavior that is not defined in the context files.
+- Do not invent product behaviour that is not defined in the context files.
 - If a requirement is ambiguous, resolve it in the relevant context file
   before implementing.
 - If a requirement is missing, add it to "Open Questions" in

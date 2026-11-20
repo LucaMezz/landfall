@@ -1,0 +1,13 @@
+ADR
+ADRs
+ECS
+Fargate
+Nygard
+Nygard's
+OpenAPI
+PaaS
+RBAC
+SAML
+SSO
+another's
+vCPU

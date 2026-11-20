@@ -32,6 +32,19 @@
 - An accepted ADR is not edited, except that its status can change. To change
   a decision, write a new ADR and mark the old one as superseded.
 
+## Spelling
+
+- Write Australian English: colour, behaviour, organisation, and licence as a
+  noun.
+- Run `mise run spell` before you open a pull request. CI runs the same task
+  and fails the pull request if it finds a problem.
+- `mise.toml` and `mise.lock` pin the tools the task needs. Run `mise install`
+  once to install them.
+- Add a word that is correct but unknown to Harper, such as a name or an
+  acronym, to `.config/harper/dictionary.txt`. Use one word per line, in
+  alphabetical order. Do not add a misspelling to silence the check.
+- The check covers Markdown files for now. It does not check commit messages.
+
 ## General
 
 TODO.

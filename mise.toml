@@ -1,0 +1,9 @@
+[settings]
+lockfile = true
+
+[tools]
+harper-cli = "3.3.0"
+
+[tasks.spell]
+description = "Check spelling in Australian English"
+run = "scripts/spell.sh"

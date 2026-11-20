@@ -10,7 +10,7 @@ architectural decision:
 3. `docs/context/code-standards.md` — implementation rules and conventions
 4. `docs/context/ai-workflow-rules.md` — development workflow, scoping rules
    and delivery approach
-5. `docs/context/ui-context.md` — theme, colors, typography and component
+5. `docs/context/ui-context.md` — theme, colours, typography and component
    conventions (only needed when working on the web app)
 
 Before writing any code, read "How I use AI" in `README.md`. The work listed
@@ -25,5 +25,8 @@ file.
 If implementation changes the architecture, scope or standards documented in
 the context files, update the relevant file before continuing. A change that
 reverses an accepted ADR needs a new ADR that supersedes it.
+
+Write Australian English. Before you finish, run `mise run spell` and fix every
+finding. The rules are in `docs/context/code-standards.md`.
 
 Files marked TODO are not written yet. Do not guess their contents. Ask.
