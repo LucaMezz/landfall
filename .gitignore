@@ -1,0 +1,18 @@
+# Secrets and local configuration
+.env
+.env.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+
+# draw.io temporary and backup files
+.$*
+
+# Logs
+*.log
