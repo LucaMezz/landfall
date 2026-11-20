@@ -76,6 +76,6 @@ the scope and the rules, so the tools follow decisions I have already made.
 
 TODO. There is nothing to run yet.
 
-## License
+## Licence
 
 [MIT](LICENSE)
